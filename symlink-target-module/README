@@ -1,0 +1,20 @@
+This module shows target path of symbolic links
+in the statusbar.
+
+
+............Compile.............
+
+If your machine have x86 processor, edit Makefile and
+change LIBDIR from arm-linux-gnueabihf to x86_64-linux-gnu
+
+Install Dependencies...
+	libfm-dev
+
+Run command...
+	make
+
+
+...........Install..............
+
+Run command..
+	sudo make install

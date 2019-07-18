@@ -1,4 +1,4 @@
-# pcmanfm-modules
+# PCmanFM Modules
 Collection of some modules for pcmanfm file manager  
 
 It has these modules  

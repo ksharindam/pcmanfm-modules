@@ -1,0 +1,25 @@
+This module shows audio file or mp4 video file length
+in the statusbar.
+
+
+............Compile.............
+
+If your machine have x86 processor, edit Makefile and
+change LIBDIR from arm-linux-gnueabihf to x86_64-linux-gnu
+
+Install Dependencies...
+	libfm-dev
+	libtagc0-dev
+
+Run command...
+	make
+
+
+...........Install..............
+
+Run command..
+	sudo make install
+
+
+......Runtime dependencies......
+	libtagc0
