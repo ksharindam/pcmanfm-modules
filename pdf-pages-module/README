@@ -7,9 +7,8 @@ in the statusbar.
 If your machine have x86 processor, edit Makefile and
 change LIBDIR from arm-linux-gnueabihf to x86_64-linux-gnu
 
-Install Dependencies...
+Build Dependencies...
 	libfm-dev
-	libpoppler-glib-dev
 
 Run command...
 	make

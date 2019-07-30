@@ -1,7 +1,7 @@
 MODULE = pcmanfm-pdf-pages
 LIBDIR = /usr/lib/arm-linux-gnueabihf
 DESTDIR =
-CFLAGS = `pkg-config --cflags --libs libfm poppler-glib` -shared -fPIC -Wall
+CFLAGS = `pkg-config --cflags --libs libfm` -shared -fPIC -Wall
 
 all:
 	gcc -o $(MODULE).so $(CFLAGS) $(MODULE).c
