@@ -1,5 +1,5 @@
 MODULE = pcmanfm-audio-length
-LIBDIR = /usr/lib/arm-linux-gnueabihf
+LIBDIR = /usr/lib/x86_64-linux-gnu
 DESTDIR =
 CFLAGS = `pkg-config --cflags libfm` -shared -fPIC -Wall
 

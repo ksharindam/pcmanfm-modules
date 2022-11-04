@@ -2,23 +2,19 @@ This module shows number of pages in a PDF File
 in the statusbar.
 
 
-............Compile.............
-
-If your machine have x86 processor, edit Makefile and
-change LIBDIR from arm-linux-gnueabihf to x86_64-linux-gnu
+............Compile and Install .............
+Run configure.sh before compiling this module
 
 Build Dependencies...
 	libfm-dev
 
+Runtime dependencies...
+	libpoppler-glib8
+
 Run command...
 	make
+    sudo make install
 
 
-...........Install..............
-
-Run command..
-	sudo make install
-
-
-......Runtime dependencies......
-	libpoppler-glib8
+...........Uninstall..............
+	sudo make uninstall

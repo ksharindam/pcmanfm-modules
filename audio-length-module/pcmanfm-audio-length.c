@@ -57,7 +57,7 @@ static char* _get_audio_len(FmFileInfoList *files, gint n_files){
     }
     TagLib_AudioProperties *TL_props = taglib_file_audioproperties( TL_file );
     length = taglib_audioproperties_length( TL_props );
-    if ( length>3600 ) {
+    if ( length>3600 ){
         audio_len = g_strdup_printf( "  --> %d:%02d:%02d", length/3600, (length%3600)/60, length%60 );
     } else {
         audio_len = g_strdup_printf( "  --> %d:%02d", length/60, length%60 );
