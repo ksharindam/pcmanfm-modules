@@ -6,6 +6,7 @@ in the statusbar.
 Run configure.sh before compiling this module
 
 Build Dependencies...
+    pcmanfm (for pcmanfm-modules.h)
 	libfm-dev
 
 Run command...
